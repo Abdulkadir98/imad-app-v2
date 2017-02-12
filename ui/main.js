@@ -15,5 +15,7 @@ button.onclick = function(){
             }
         }
     };
+    request.open('GET', 'http://abdulkadir98.imad.hasura-app.io', true);
+    request.send(null);
     
 };
